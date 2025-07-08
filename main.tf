@@ -15,3 +15,6 @@ output "zones" {
 output "default_vpc" {
   value = module.vpc.default_vpc.id
 }  */
+output "default_vpc" {
+  value = module.vpc.default_vpc.id
+}  
